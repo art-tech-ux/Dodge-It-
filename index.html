@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodge It! - Android Game</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(45deg, #ff5722, #ff9800);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        nav {
+            margin: 20px auto;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: rgb(17, 1, 1);
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #45a049;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ff5722;
+            display: inline-block;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            min-width: 250px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .features, .media {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .media iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #efecec;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dodge It!</h1>
+    <p>The ultimate test of speed, reflexes, and skill!</p>
+</header>
+
+<nav>
+    <a href="#details">Project Details</a>
+    <a href="#features">Features</a>
+    <a href="#media">Media</a>
+    <a href="#download">Download</a>
+    <a href="#source">Source Code</a>
+</nav>
+
+<div class="container">
+    <!-- Project Details Section -->
+    <section class="section" id="details">
+        <h2>Project Details</h2>
+        <div class="card">
+            <p><strong>Title:</strong> Dodge It!</p>
+            <p><strong>Subject:</strong> Android Game Development for BSIT 2nd Year</p>
+            <p><strong>Author:</strong> Art Siona</p>
+            <p><strong>Email:</strong> <a href="artsiona94@gmail.com">artsiona94@gmail.com</a></p>
+            <p><strong>School:</strong> Southern Leyte State University - Tomas Oppus, BSIT 2nd Year</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Gameplay</h3>
+                <p>Fast-paced gameplay with challenging obstacles.</p>
+            </div>
+            <div class="card">
+                <h3>Levels</h3>
+                <p>Multiple levels with increasing difficulty to test your skills.</p>
+            </div>
+            <div class="card">
+                <h3>Rewards</h3>
+                <p>Unlock achievements and collect rewards as you play.</p>
+            </div>
+            <div class="card">
+                <h3>Visual Effects</h3>
+                <p>Dynamic animations and smooth transitions enhance the experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section class="section" id="media">
+        <h2>Media</h2>
+        <div class="media">
+            <div class="card">
+                <img src="assets/screenshot1.jpg" alt="Main Menu">
+                <p>Main Menu</p>
+            </div>
+            <div class="card">
+                <img src="assets/screenshot2.jpg" alt="In-game Action">
+                <p>In-Game Action</p>
+            </div>
+            <div class="card">
+                <img src="assets/screenshot3.jpg" alt="Game Over Screen">
+                <p>Game Over Screen</p>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/yourvideoid" title="Game Trailer"></iframe>
+    </section>
+
+    <!-- Download Section -->
+    <section class="section" id="download">
+        <h2>Download</h2>
+        <div class="card">
+            <p>Experience "Dodge It!" now:</p>
+            <a href="https://play.google.com/store/apps/details?id=com.yourgame.dodgeit" class="button">Google Play</a>
+            <p>Or download the APK:</p>
+            <a href="assets/yourgame.apk" class="button">Download APK</a>
+        </div>
+    </section>
+
+<footer>
+    <p>&copy; 2024 Tomas Oppus. All Rights Reserved.</p>
+    <p><a href="mailto:author@example.com">Contact the Developer</a></p>
+</footer>
+
+</body>
+</html>
